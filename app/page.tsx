@@ -2,14 +2,14 @@ import FlowArt, { FlowSection } from '@/components/ui/story-scroll';
 import Image from 'next/image';
 
 // ─── EDIT YOUR INFO HERE ─────────────────────────────────────────────────────
-const NAME = 'Your Name';
-const ROLE = 'Designer & Developer';
-const TAGLINE = 'I craft digital experiences that feel as good as they look.';
+const NAME = 'Leo Dörig';
+const ROLE = 'Somewhere between spreadsheet and lookbook';
+const TAGLINE = 'Marketer. Overconsumer of good design';
 const BIO =
   "I'm a creative based somewhere in the world, blending design thinking with technical craft. I believe the best work lives at the intersection of aesthetics and function — and I spend my days chasing that line.";
-const EMAIL = 'hello@yourname.com';
-const SOCIAL_GITHUB = 'https://github.com/yourusername';
-const SOCIAL_LINKEDIN = 'https://linkedin.com/in/yourusername';
+const EMAIL = 'leodoerig@hotmail.com';
+const SOCIAL_INSTAGRAM = 'https://www.instagram.com/leo.mrtn/';
+const SOCIAL_LINKEDIN = 'https://www.linkedin.com/in/leo-doerig/';
 
 // ─── INTERESTS ────────────────────────────────────────────────────────────────
 const INTERESTS = [
@@ -209,8 +209,8 @@ export default function Home() {
             </a>
 
             <div className="flex gap-6 text-sm font-semibold uppercase tracking-widest opacity-50">
-              <a href={SOCIAL_GITHUB} target="_blank" rel="noopener noreferrer" className="hover:opacity-100">
-                GitHub
+              <a href={SOCIAL_INSTAGRAM} target="_blank" rel="noopener noreferrer" className="hover:opacity-100">
+                Instagram
               </a>
               <a href={SOCIAL_LINKEDIN} target="_blank" rel="noopener noreferrer" className="hover:opacity-100">
                 LinkedIn
